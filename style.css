@@ -1,0 +1,44 @@
+*{
+   /* background-color: gray; */
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   gap: 30px;
+   height: 100dvh;
+}
+
+.container{
+ width: 600px;
+ padding: 30px;
+ background-color: darkcyan;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ gap: 20px;
+ border-radius: 20px;
+
+ #quotes{
+   height: 230px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 24px;
+ }
+
+ button{
+   width: 250px;
+   height: 40px;
+   background-color: green;
+   cursor: pointer;
+   font-size: 24px;
+   border-radius: 10px;
+ }
+}
